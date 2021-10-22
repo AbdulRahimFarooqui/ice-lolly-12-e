@@ -1,0 +1,35 @@
+.Header{
+    font-size:60px;
+    font-family: Yellowtail,cursive;
+    font-weight: 300;
+    color: #fff;
+    border-bottom-style: none;
+    text-shadow: #fa73d9 0 0 8px;
+}
+
+.aref{
+    text-decoration: none;
+}
+
+.button{
+    font-size: 20px;
+    color: #fc85de;
+    border: 1px solid #fa73d9;
+    padding: 30px;
+    height: fit-content;
+    width: 700px;
+    border-radius: 50px;
+    margin-top:4%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    user-select: none;
+}
+
+.button:hover{
+    background-color: #fa73d9;
+    color:#21212b;
+    cursor: pointer;
+    box-shadow: #fa73d9;
+    user-select: none;
+}

@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background-color: #21212b;
+    color: aliceblue;
+    font-family: open-sans,Helvetica,sans-serif;
+    font-weight: 300;
+}
+
+.listLollies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.listLollies .lollipop{
+    height: 300px;
+}
+
+.container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading{
+    font-size: 550px;
+}
+
+.createNewDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lollyForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.colorFlavour{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    border-width: 0px;
+    display: block;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 0 14px #000;
+}
+
+.colorPickerLabel{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.lollyMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
