@@ -4,7 +4,7 @@ const axios = require('axios')
 const q = faunadb.query;
 const shortid = require('shortid')
 
-require('events').EventEmitter.defaultMaxListeners = 400;
+require('events').EventEmitter.defaultMaxListeners = 4000;
 
 const typeDefs = gql`
   type Query {
